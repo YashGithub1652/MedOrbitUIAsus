@@ -1,0 +1,19 @@
+// lib/screens/profile/profile_edit_screen.dart
+
+import 'package:flutter/material.dart';
+
+class ProfileEditScreen extends StatelessWidget {
+  const ProfileEditScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Edit Profile'),
+      ),
+      body: const Center(
+        child: Text('Profile Edit - Coming Soon'),
+      ),
+    );
+  }
+}
